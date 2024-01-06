@@ -2762,8 +2762,8 @@ body::after {
 
 .card-lectures__info {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 100%;
-          flex: 1 1 100%;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .card-lectures__title {
