@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Events</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20240106144031" />
+	<link rel="shortcut icon" href="img/icon__logo/logo.svg" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo">
+					<img src="img/header/logo.svg" alt="logo" />
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="about-us.html" class="menu__link nav-header__link">About Us</a>
+							</li>
+							<li class="menu__item">
+								<a href="courses.html" class="menu__link nav-header__link">Courses</a>
+							</li>
+							<li class="menu__item"><a href="events-column.html" class="menu__link">Events</a></li>
+							<li class="menu__item"><a href="blog.html" class="menu__link">Blog</a></li>
+							<li class="menu__item"><a href="contact.html" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-da=".menu__body, 550" href="#" class="actions-header__button button"><span>Get consultation</span></a>
+					<a data-popup="#search" data-da=".menu__body, 390" href="#" class="actions-header__auth">
+						<span class="_icon-profile">Log in / Register</span>
+					</a>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+
+		<main class="page-events">
+			<section data-watch class="page-events__events events-page">
+				<div class="events-page__container">
+					<div class="events-page__title title-container">
+						<div class="title-container__subtitle">Our events</div>
+						<h1 class="title-container__title">Lectures, workshops & master-classes</h1>
+					</div>
+					<div class="events-page__action">
+						<form action="" class="events-page__form form-events">
+							<div class="form-events__line">
+								<label for="category" class="form-events__label">Event category</label>
+								<div class="select__wrapper">
+									<select class="select" name="form-events__select" data-class-modif="form">
+										<option value="1" selected>all themes</option>
+										<option value="2">Onine master-class</option>
+										<option value="3">Onine lecture</option>
+										<option value="4">Onine workshop</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-events__line">
+								<label for="category" class="form-events__label">Sort by</label>
+								<div class="select__wrapper">
+									<select name="form-events__select" data-class-modif="form">
+										<option value="1" selected>newest</option>
+										<option value="2">newest-01</option>
+										<option value="3">newest-02</option>
+										<option value="4">newest-03</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="form-events__line form-events__line--number">
+								<label for="number" class="form-events__label">Show</label>
+								<input autocomplete="off" type="number" name="number" placeholder="" value="9" class="form-events__input" />
+								<span class="form-events__span">events per page</span>
+							</div>
+							<div class="form-events__line form-events__line--search">
+								<input autocomplete="off" type="search" name="search" placeholder="Search event..." class="form-events__input" />
+							</div>
+
+							<div class="form-events__positions positions-form">
+								<a href="events-row.html" class="positions-form__item positions-form__item--row _icon-menu-row"></a>
+								<a href="#" class="positions-form__item positions-form__item--column _icon-menu-col active"></a>
+							</div>
+						</form>
+					</div>
+					<div class="events-page__cards">
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">05 Aug </span>
+								<span class="card-events__time">11:00 – 14:00</span>
+								<h3 class="card-events__title">Formation of the organizational structure of the company in the face of uncertainty.</h3>
+								<span class="card-events__subtitle">Onine master-class</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="event-01.html" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">24 Jul </span>
+								<span class="card-events__time">11:00 – 12:30</span>
+								<h3 class="card-events__title">Building a customer service department. Best Practices.</h3>
+								<span class="card-events__subtitle">Onine lecture</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">16 Jul </span>
+								<span class="card-events__time">10:00 – 13:00</span>
+								<h3 class="card-events__title">How to apply methods of speculative design in practice. Worldbuilding prototyping.</h3>
+								<span class="card-events__subtitle">Onine workshop</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">10 Jul</span>
+								<span class="card-events__time">9:00 – 14:00</span>
+								<h3 class="card-events__title">Find and evaluate: search and assessment tools for candidates.</h3>
+								<span class="card-events__subtitle">Onine workshop</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">27 Jun</span>
+								<span class="card-events__time">15:00 – 19:00</span>
+								<h3 class="card-events__title">Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI</h3>
+								<span class="card-events__subtitle">Onine master-class</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">15 Jun </span>
+								<span class="card-events__time">11:00 – 12:00</span>
+								<h3 class="card-events__title">Marketing or growth hacking: main differences and what business needs</h3>
+								<span class="card-events__subtitle">Onine lecture</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">02 Jul </span>
+								<span class="card-events__time">11:00 – 13:00</span>
+								<h3 class="card-events__title">How to brief a client and present your design to approve it from the first show.</h3>
+								<span class="card-events__subtitle">Onine lecture</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">29 May</span>
+								<span class="card-events__time">11:00 – 12:00</span>
+								<h3 class="card-events__title">Who is a project manager and do I want to be PM?</h3>
+								<span class="card-events__subtitle">Onine lecture</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+						<article class="events-page__card card-events">
+							<div class="card-events__body">
+								<span class="card-events__date">18 May </span>
+								<span class="card-events__time">10:00 – 12:00</span>
+								<h3 class="card-events__title">
+									The company's business page as an additional tool to support the announcement of vacancies.
+								</h3>
+								<span class="card-events__subtitle">Onine lecture</span>
+							</div>
+							<div class="card-events__actions">
+								<a href="" class="card-events__button border-button border-button--medium"><span>View more</span></a>
+							</div>
+						</article>
+					</div>
+					<div class="events-page__count">
+						<a href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#" class="_icon-right"></a>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="page-events__subscribe subscribe-block">
+				<div class="subscribe-block__container">
+					<div class="subscribe-block__title title-container">
+						<div class="title-container__subtitle">Don’t miss anything</div>
+						<h2 class="title-container__title">Subscribe to the Createx School announcements</h2>
+					</div>
+					<form action="#" class="subscribe-block__form form-subscribe">
+						<div class="form-subscribe__line">
+							<input required autocomplete="off" type="email" name="email" placeholder="Your working email" class="form-subscribe__email" />
+						</div>
+						<div class="form-subscribe__button">
+							<button type="submit" class="button"><span>Subscribe</span></button>
+						</div>
+					</form>
+				</div>
+				<div class="subscribe-block__decor decor-subscribe">
+					<div class="decor-subscribe__item decor-subscribe__item--1"></div>
+					<div class="decor-subscribe__item decor-subscribe__item--2"></div>
+				</div>
+			</section>
+		</main>
+		<footer data-watch data-spollers="768,max" class="footer">
+			<div class="footer__container">
+				<div class="footer__createx createx-footer">
+					<div class="createx-footer__logo">
+						<picture><source srcset="img/footer/logo.webp" type="image/webp"><img src="img/footer/logo.png" alt="logo-2" /></picture>
+					</div>
+					<div class="createx-footer__text">
+						Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide
+						relevant approaches to online learning, internships and employment in the largest companies in the country.
+					</div>
+					<div class="createx-footer__soc">
+						<a href="#" class="_icon-facebook"></a>
+						<a href="#" class="_icon-twitter"></a>
+						<a href="#" class="_icon-youTube"></a>
+						<a href="#" class="_icon-telegram"></a>
+						<a href="#" class="_icon-instagram"></a>
+						<a href="#" class="_icon-linked-In"></a>
+					</div>
+				</div>
+
+				<div class="footer__navigation navigation-footer">
+					<div class="navigation-footer__body">
+						<button type="button" data-spoller class="navigation-footer__title">SITE MAP</button>
+						<div class="navigation-footer__menu menu-footer">
+							<div class="menu-footer__body">
+								<ul class="navigation-footer__list">
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">About Us</a></li>
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">Courses</a></li>
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">Events</a></li>
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">Blog</a></li>
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">Contacts</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="navigation-footer__body">
+						<button type="button" data-spoller class="navigation-footer__title">COURSES</button>
+						<div class="navigation-footer__menu menu-footer">
+							<div class="menu-footer__body">
+								<ul class="navigation-footer__list">
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">Marketing</a></li>
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">Management</a></li>
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">HR & Recruting</a></li>
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">Design</a></li>
+									<li class="navigation-footer__item"><a href="#" class="navigation-footer__link">Development</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="navigation-footer__body">
+						<button type="button" data-spoller class="navigation-footer__title">CONTACT US</button>
+						<div class="navigation-footer__menu menu-footer">
+							<div class="menu-footer__body">
+								<ul class="navigation-footer__list">
+									<li class="navigation-footer__item">
+										<a href="tel:(405) 555-0128"><span class="_icon-phone">(405) 555-0128</span></a>
+									</li>
+									<li class="navigation-footer__item">
+										<a href="mailto: hello@createx.com"><span class="_icon-mail">hello@createx.com</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<form class="footer__form form-footer">
+					<h4 class="form-footer__title">SIGN UP TO OUR NEWSLETTER</h4>
+					<div class="form-footer__line">
+						<input autocomplete="off" type="email" name="form-footer__input" placeholder="Email address" class="form-footer__input" />
+						<button type="submit" class="form-footer__button _icon-right"></button>
+					</div>
+
+					<div class="form-footer__text">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</div>
+				</form>
+			</div>
+
+			<div class="footer__made made-footer">
+				<div class="made-footer__container">
+					<div class="made-footer__text">
+						<span>© All rights reserved.Made with</span>
+						<span class="made-footer__span _icon-heart">by Createx Studio </span>
+					</div>
+					<div class="made-footer__link">
+						<a href="#">GO TO TOP</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div id="search" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Close</button>
+				<div class="popup__header">
+					<h1 class="popup__title">Sign in</h1>
+					<div class="popup__popup-text">Sign in to your account using email and password provided during registration.</div>
+				</div>
+				<form action="#" method="" class="popup__form form-popup">
+					<div class="form-popup__line">
+						<label for="email" class="popup__label">Email</label>
+						<input required autocomplete="off" id="email" type="email" class="popup__input" placeholder="Your working email" />
+					</div>
+					<div class="form-popup__line">
+						<label for="password" class="popup__label">Password</label>
+						<input required autocomplete="off" id="password" type="password" class="popup__input" placeholder="Password" />
+					</div>
+					<div class="form-popup__check check-popup">
+						<div class="check-popup__checkbox">
+							<input checked id="check" type="checkbox" class="check-popup__input" />
+							<label for="check" class="check-popup__label"><span class="check-popup__text">Keep me signed in</span></label>
+						</div>
+						<a href="#" class="check-popup__link">Forgot password?</a>
+					</div>
+					<button type="submit" class="popup__button button"><span>Sign in</span></button>
+					<div class="popup__subtitle">Don't have an account? <a data-popup="#popup-up" href="#" class="popup__link">Sign up</a></div>
+				</form>
+				<div class="popup__line"></div>
+				<div class="popup__header header-popup">
+					<div class="header-popup__text">Or sign in with</div>
+					<div class="header-popup__soc">
+						<a href="#" class="header-popup__link _icon-facebook"></a>
+						<a href="#" class="header-popup__link _icon-google"></a>
+						<a href="#" class="header-popup__link _icon-twitter"></a>
+						<a href="#" class="header-popup__link _icon-linked-In"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240106144031"></script>
+	<div id="popup-up" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Close</button>
+				<div class="popup__header">
+					<h1 class="popup__title">Sign up</h1>
+					<div class="popup__popup-text">Registration takes less than a minute but gives you full control over your studying.</div>
+				</div>
+				<form action="#" method="" class="popup__form form-popup">
+					<div class="form-popup__line">
+						<label for="text" class="popup__label">Full Name</label>
+						<input required autocomplete="off" id="text" type="text" class="popup__input" placeholder="Your full name" />
+					</div>
+					<div class="form-popup__line">
+						<label for="email" class="popup__label">Email</label>
+						<input required autocomplete="off" id="email" type="email" class="popup__input" placeholder="Your working email" />
+					</div>
+					<div class="form-popup__line">
+						<label for="password" class="popup__label">Password</label>
+						<input required autocomplete="off" id="password" type="password" class="popup__input" placeholder="Password" />
+					</div>
+					<div class="form-popup__line">
+						<label for="conf-password" class="popup__label">Confirm Password</label>
+						<input required autocomplete="off" id="conf-password" type="password" class="popup__input" placeholder="Password" />
+					</div>
+					<div class="form-popup__check check-popup">
+						<div class="check-popup__checkbox">
+							<input checked id="check" type="checkbox" class="check-popup__input" />
+							<label for="check" class="check-popup__label"><span class="check-popup__text">Remember me</span></label>
+						</div>
+					</div>
+					<button type="submit" class="popup__button button"><span>Sign up</span></button>
+					<div class="popup__subtitle">Already have an account? <a data-popup="#search" href="#" class="popup__link">Sign in</a></div>
+				</form>
+				<div class="popup__line"></div>
+				<div class="popup__header header-popup">
+					<div class="header-popup__text">Or sign in with</div>
+					<div class="header-popup__soc">
+						<a href="#" class="header-popup__link _icon-facebook"></a>
+						<a href="#" class="header-popup__link _icon-google"></a>
+						<a href="#" class="header-popup__link _icon-twitter"></a>
+						<a href="#" class="header-popup__link _icon-linked-In"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
